@@ -1,0 +1,306 @@
+body, html{
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  background-color: rgb(236,28,123);
+}
+
+.text-center{
+  text-align: center;
+}
+
+/* HEADER */
+
+#header-text{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;  
+}
+
+.logo-header{
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.logo-header a{
+  text-decoration: none;
+}
+
+.ozio-header{
+  color: rgb(236,28,123);
+  font-size: 40px;
+  font-family: 'Raleway';
+  font-weight: 900;
+}
+
+.studio-header{
+  color: black;
+  font-size: 40px;
+  font-family: 'Raleway';
+  font-weight: lighter;
+}
+
+#navigation-bar{
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#navigation-bar ul li{
+  display: inline-block;
+  font-family: 'Raleway';
+  font-size: 21px;
+  font-weight: 500;
+  margin-right: 55px;
+}
+
+#navigation-bar a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+#navigation-bar a:hover{
+  color: rgb(236,28,123);
+  border-bottom: 3px solid rgb(236,28,123);
+}
+
+/* HERO IMAGE */
+
+#hero-image{
+  background-image: url("Ozio_Assets/images/0-ozio hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.hero-text{
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  line-height: 120px;
+}
+.hero-text h1{
+  font-family: 'Raleway';
+  font-size: 130px;
+  color: white;
+  font-weight: 400;
+}
+
+.ozio-hero,
+.period-hero{
+  color: rgb(236,28,123);
+  font-size: 170px;
+  font-family: 'Raleway';
+  font-weight: 900;
+}
+
+/* FIRST HEADING */
+
+.first-heading h1, h2{
+  font-family: 'Raleway';
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+
+.first-heading h1{
+  font-size: 60px;
+  padding-top: 60px;
+  margin-bottom: 0px;
+}
+
+.first-heading h2{
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 50px; 
+}
+
+/* GROUP ONE */
+
+.group-one{
+  display: inline-block;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  align-items: center;
+}
+                
+.group-one h2{
+  text-align: center;
+  color:white;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.group-one a {
+  text-decoration: none;
+}
+
+/* GROUP TWO */
+
+.group-two{
+  display: inline-block;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  align-items: center;
+}
+                  
+.group-two h2{
+  text-align: center;
+  color:white;
+  padding-top: 15px;
+  font-size: 25px;
+}
+  
+.group-two a {
+  text-decoration: none;
+}
+  
+/* VIEW BUTTON */
+
+.view{
+  padding: 10px;
+  width: 100%; 
+  max-width: 100px; 
+  border-radius: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: transparent;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  outline: none;
+}
+
+.view:hover{
+  background-color:  white;
+  color:  rgb(236,28,123);
+}
+
+.view a{
+  color: inherit; 
+  text-decoration: none;
+}
+
+/* SECOND HEADING */
+
+.second-heading h1, h2{
+  font-family: 'Raleway';
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+
+.second-heading h1{
+  font-size: 60px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+.second-heading h2{
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 5px;
+}
+
+/* SERVICES LIST */
+
+.services ul{
+  font-family: 'Raleway';
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  list-style: inside;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 85px;
+  line-height: 55px;   
+}
+
+/* THIRD HEADING */
+
+.third-heading h1, h2{
+  font-family: 'Raleway';
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+
+.third-heading h1{
+  font-size: 60px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+
+.third-heading h2{
+  font-size: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 5px;
+  margin-top: 22px;
+}
+
+.ozio-text{
+  color: white;
+  font-size: 70px;
+  font-family: 'Raleway';
+  font-weight: 900;
+}
+
+/* EMAIL BUTTON */
+
+.email{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(88, 89, 91);
+  background-color: rgb(88, 89, 91);
+  color: white;
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 130px;
+  outline: none;
+}
+
+.email:hover{
+  background-color:  white;
+  border: 1px solid white;
+  color:  rgb(236,28,123);
+}
+
+.email a{
+  color: inherit; 
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+#footer{
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-family: 'Raleway';
+}
